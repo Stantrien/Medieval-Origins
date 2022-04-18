@@ -1,0 +1,46 @@
+{
+    "type": "origins:action_over_time",
+    "name": "Friends in the Dark Web",
+    "description": "Being an arachnid, others respect you and are friendly towards you.",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team add spiders"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join spiders @s"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join spiders @e[type=minecraft:spider]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join spiders @e[type=minecraft:cave_spider]"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join spiders @e[type=minecraft:silverfish]"
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join spiders @e[type=minecraft:endermite]"
+            },
+			{
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "team join spiders @e[type=earthtojavamobs:bone_spider]"
+            }
+        ]
+    }
+}
